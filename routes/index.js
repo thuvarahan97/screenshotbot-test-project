@@ -10,17 +10,17 @@ function getCard (data1, data2, data3, data4, data5) {
 
 function getCard3() {
     return {
-        content: "No content."
+        content: "No content available."
     };
 }
 
 exports.index = function(req, res){
     if(req.method == "GET"){
         const data1 = [
-            "1000",
-            "2000",
-            "3000",
-            "5000"
+            "10",
+            "20",
+            "30",
+            "50"
         ];
         const data2 = [
             "Yes",

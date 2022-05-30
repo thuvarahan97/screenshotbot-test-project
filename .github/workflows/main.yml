@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_api_key: "5241f8d5-d996-4abe-ad3b-71d7604c35fe"
           heroku_app_name: "screenshotbot-test-project" #Must be unique in Heroku
           heroku_email: "thuvarahan.17@cse.mrt.ac.lk"

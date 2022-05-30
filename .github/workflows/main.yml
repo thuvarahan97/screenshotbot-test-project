@@ -15,3 +15,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "screenshotbot-test-project" #Must be unique in Heroku
           heroku_email: "thuvarahan.17@cse.mrt.ac.lk"
+          remote_branch: "main"
+      - run: npm ci
+      - run: npm run build --if-present
+      - run: npm test

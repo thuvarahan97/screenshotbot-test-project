@@ -12,19 +12,24 @@
         @media not all and (min-resolution:.001dpcm)
         { @supports (-webkit-appearance:none) and (stroke-color:transparent) {
             .card {
-                border: 5px solid rgb(201, 0, 241);
+                border: 5px solid rgb(241, 0, 52);
             }
             .card-title {
                 border-radius: 10px;
-                background-color: rgb(255, 249, 164);
+                background-color: rgb(174, 169, 86);
                 padding: 10px;
             }
         }}
         .card {
-            -webkit-text-fill-color: blue;
+            -webkit-text-fill-color: rgb(19, 163, 0);
         }
         .card-title {
             -moz-margin-end: 200px;
+        }
+        @-moz-document url-prefix() {
+            .container {
+                padding: 50px;
+            }
         }
     </style>
     <!-- jQuery -->

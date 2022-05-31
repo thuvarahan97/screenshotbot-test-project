@@ -42,11 +42,11 @@ describe('Main & Finish Page', () => {
       });
       page = await context.newPage();
       await page.goto('http://localhost:8080/');
-      await page.screenshot({ path: 'test/screenshots/main_page--nexus5.png', fullPage: true });
+      await page.screenshot({ path: 'test/screenshots/main_page--nexus 5.png', fullPage: true });
       await page.locator('#submitBtn').click();
       setTimeout(function () {
       }, 1000);
-      await page.screenshot({ path: 'test/screenshots/finish_page--nexus5.png', fullPage: true });
+      await page.screenshot({ path: 'test/screenshots/finish_page--nexus 5.png', fullPage: true });
     });
 
     after(async () => {

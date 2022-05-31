@@ -1,0 +1,9 @@
+Google Chrome Desktop:
+  type: chrome
+  dimensions: 1280x800
+Firefox:
+  type: firefox
+  dimensions: 1280x800
+Nexus 5:
+  type: chrome
+  mobile-emulation: Nexus 5
